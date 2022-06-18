@@ -1,0 +1,46 @@
+.footer{
+    height: 300px;
+    background-color: #3a3973;
+    margin-top: 20px;
+}
+
+.footer h3{
+    font-size: 40px;
+    font-weight: 800 !important;
+    line-height: 48px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.footer h6{
+    font-size: 16px;
+    color: white;
+}
+
+.footer .nav{
+    justify-content: space-evenly;
+}
+
+.footer .nav i{
+    font-size: 27px;
+    transition: all .2s linear;
+}
+
+/* css for logo instagram */
+i.fa-brands.fa-instagram {
+    background:linear(#FA897B,#CCABD8) !important;
+}
+
+.nav .nav-item #insagram{
+    color: #F2A490;
+}
+
+.nav .nav-item #google{
+    color: #eb371f;
+}
+
+.nav .nav-item #github{
+    color: #111010;
+}
+

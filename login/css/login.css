@@ -1,0 +1,94 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    background-image: url("./img/bglogin.jpg");
+    margin: 0;
+}
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(58, 57, 115);
+}
+
+form {
+    max-width: 550px;
+    width: 90%;
+    background: white;
+    margin: 17vh auto 0 auto;
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 20px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+input[type="text"]:focus{
+    border-bottom: 1px solid rgb(58, 57, 115);
+}
+
+input[type="password"]:focus{
+    border-bottom: 1px solid rgb(58, 57, 115);
+}
+
+.center {
+    text-align: center;
+}
+
+input[type="submit"] {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 200px;
+    background: linear-gradient(to right, rgb(82, 55, 125), rgb(58, 57, 115));
+    /* background: seagreen; */
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.error {
+    color: red;
+}
+
+.error-boder {
+    border-bottom: 1px solid red;
+}
+
+/* #success {
+    color: #28A745;
+} */
+.return {
+    float: right;
+    margin-top: 15px;
+}
+.returnHome {
+    text-decoration: none;
+    float: right;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+a {
+    text-decoration: none;
+}

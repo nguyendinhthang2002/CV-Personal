@@ -1,0 +1,43 @@
+:root {
+    /* declare variable background-color gray */
+    --color-bg-gray: #f4f6f8;
+    /* --color-main:#3a3973; */
+    --color-main: #333;
+
+}
+/* css for title */
+.title {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+}
+
+.title h3:hover {
+    background-color: var(--color-main);
+    color: white;
+}
+
+.title h3 {
+    border: 2px solid;
+    background: #fff none repeat scroll 0 0;
+    color: var(--color-main);
+    display: inline-block;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 30px;
+    position: relative;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.title::before {
+    border-top: 1px solid #b7b7b7;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
